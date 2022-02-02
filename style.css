@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*hero section style start */
+
+.hero-section {
+    background-image: url("./Pictures/Image_1.png");
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.hero-contant {
+    padding: 210px 0px 0px 100px;
+    color: #fff;
+}
+
+.hero-contant h1 {
+    font-size: 45px;
+}
+
+.hero-contant p {
+    padding: 30px 0px;
+    font-size: 19px;
+}
+
+
+/*defalt button*/
+
+.root-btn {
+    padding: 10px 27px;
+    background-color: #FDB467;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+/*hero section style end */
+
+
+/*about section style start */
+
+.about-section {
+    text-align: center;
+    color: #FFFF;
+}
+
+.our-studio {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: #272624;
+    padding: 150px 50px;
+}
+
+.our-studio h2 {
+    padding: 20px 0px;
+    font-size: 35px;
+}
+
+.our-studio p {
+    font-size: 19px;
+}
+
+.registration-open {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: #1E1D1B;
+    padding: 150px 50px;
+}
+
+.registration-open h2 {
+    padding: 20px 0px;
+    font-size: 35px;
+}
+
+.registration-open ul {
+    list-style: none;
+    padding: 20px 0px;
+}
+
+
+/*about section style end */
+
+
+/* workshop & event style start */
+
+.workshop {
+    width: 100%;
+}
+
+.workshop-contant {
+    float: left;
+    width: 30%;
+    background-color: #EEE9E5;
+    /* height: auto; */
+    padding: 148px 44px;
+}
+
+.workshop-contant h2 {
+    font-size: 35px;
+}
+
+.workshop-contant p {
+    font-size: 19px;
+    padding: 20px 0px;
+}
+
+.workshop-picture img {
+    float: right;
+    width: 70%;
+}
+
+
+/* workshop & event style end */
+
+
+/* studio membership style start */
+
+.studio-membership {
+    height: 600px;
+}
+
+.s-member-picture img {
+    float: left;
+    width: 70%;
+}
+
+.s-member-contant {
+    float: left;
+    width: 30%;
+    background-color: #272624;
+    height: auto;
+    padding: 144px 44px;
+    color: white;
+}
+
+.s-member-contant h2 {
+    font-size: 35px;
+}
+
+.s-member-contant p {
+    font-size: 19px;
+    padding: 20px 0px;
+}
+
+
+/* studio membership style end */
+
+
+/* from our students style start */
+
+.our-students {
+    background-image: url("./Pictures/Image_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 1146px;
+    padding: 175px 0px 0px 307px;
+}
+
+.contant .card-middel {
+    width: 426px;
+    height: 326px;
+    background-color: #fff;
+    padding: 45px;
+    display: block;
+}
+
+.contant .card-middel p {
+    margin: 15px 0px;
+    font-size: 19px;
+}
+
+
+/* from our students style end */
+
+
+/* footer section style start */
+
+footer {
+    background-color: #1E1D1B;
+    text-align: center;
+    color: #fff;
+    padding: 93px 330px;
+}
+
+.footer-contant h2 {
+    text-transform: capitalize;
+}
+
+.footer-contant p {
+    margin: 30px 0px;
+    font-size: 19px;
+}
+
+input[type=email] {
+    background: none;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 9px 11px;
+    width: 47%;
+    color: white;
+    border-radius: 3px;
+}
+
+
+/* footer section style end */
